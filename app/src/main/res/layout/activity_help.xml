@@ -1,0 +1,138 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="40dp"
+            android:background="#000000"/>
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:text="Warna"
+            android:textSize="30dp"
+            android:textStyle="bold"/>
+
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/circle_yellow"
+            android:layout_marginTop="150dp"
+            android:layout_marginStart="260dp"
+             />
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="60dp"
+            android:textAlignment="center"
+            android:text="Warna hijau menandakan tingkat ketinggian sampah berada pada 0% sampai 50% secara default dari ketinggian tempat sampah"/>
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/circle_green"
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="260dp"
+             />
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="150dp"
+            android:textAlignment="center"
+            android:text="Warna jingga menandakan tingkat ketinggian sampah berada pada 50% sampai 75% secara default dari ketinggian tempat sampah"/>
+
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/circle_red"
+            android:layout_marginTop="250dp"
+            android:layout_marginStart="260dp"
+            android:id="@+id/imageView5" />
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="250dp"
+            android:textAlignment="center"
+            android:text="Warna merah menandakan tingkat ketinggian sampah berada pada 76% sampai 100% secara default dari ketinggian tempat sampah"/>
+
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/brown_circle"
+            android:layout_marginTop="355dp"
+            android:layout_marginStart="260dp"
+            android:id="@+id/imageView6" />
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="358dp"
+            android:textAlignment="center"
+            android:text="Warna coklat menandakan tempat sampah yang telah melewati batas waktu pengangkutan"/>
+
+
+
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:text="Alarm"
+            android:textSize="30dp"
+            android:layout_marginTop="435dp"
+            android:textStyle="bold"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="475dp"
+            android:background="#000000"/>
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="495dp"
+            android:text="Alarm batas waktu terjadi apabila waktu sekarang telah melewati batas waktu yang diterima dari database "/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="140dp"
+            android:layout_marginTop="460dp"
+            android:layout_marginStart="200dp"
+            android:src="@drawable/notif_waktu"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="140dp"
+            android:layout_marginTop="585dp"
+            android:layout_marginStart="200dp"
+            android:src="@drawable/notif_hampor"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="140dp"
+            android:layout_marginTop="725dp"
+            android:layout_marginStart="200dp"
+            android:src="@drawable/notif_penuh"/>
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="625dp"
+            android:text="Alarm kapasitas hampir penuh terjadi apabila kapasitas tempat sampah telah menampung 51% sampai 75% dari ketinggian tempat sampah"/>
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="745dp"
+            android:text="Alarm kapasitas penuh terjadi apabila kapasitas tempat sampah telah menampung 76% sampai 100% dari ketinggian tempat sampah"/>
+
+
+    </FrameLayout>
+</ScrollView>

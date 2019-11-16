@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Smart Garbage</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_delta">Smart Garbage</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <string-array name="shorting">
+        <item>A~Z</item>
+        <item>Z~A</item>
+        <item>1~9</item>
+        <item>9~1</item>
+    </string-array>
+    <string name="title_activity_gantinama">Map</string>
+</resources>

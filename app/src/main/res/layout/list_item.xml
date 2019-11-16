@@ -1,0 +1,89 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="4dp"
+    android:paddingTop="7dp"
+    android:paddingRight="4dp"
+    android:background="#e3e8e8">
+
+
+
+    <Button
+        android:text="confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="99dp"
+        android:layout_marginLeft="250dp"
+        android:id="@+id/confButton" />
+
+    <Button
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="105dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/tglButton"
+        android:layout_below="@+id/progressBar"
+        android:background="@drawable/calendar_gambar"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="66dp"
+        android:layout_marginLeft="104dp"
+        android:id="@+id/statusText"
+        android:layout_alignBottom="@+id/progressBar"
+        android:layout_toEndOf="@+id/progressBar" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="25dp"
+        android:id="@+id/progressText"
+        android:textStyle="normal|bold|italic"
+        android:textSize="27sp" />
+
+    <TextView
+        android:text="Batas Waktu Pengangkutan :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:layout_marginLeft="104dp"
+        android:id="@+id/textView4" />
+
+    <Button
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:id="@+id/jamButton"
+        android:background="@drawable/clock_button"
+        android:layout_alignBottom="@+id/tglButton"
+        android:layout_marginTop="105dp"
+        android:layout_marginLeft="60dp"
+        />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:indeterminate="false"
+        android:max="100"
+        android:progress="0"
+        android:progressDrawable="@drawable/custom_progressbar_drawable"
+        android:secondaryProgress="0"
+        android:layout_alignParentStart="true"
+        />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/button"
+        android:background="@drawable/go_to_map"
+        android:layout_marginLeft="280dp"/>
+
+
+</FrameLayout>

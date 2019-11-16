@@ -1,0 +1,34 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="190dp"
+            android:layout_height="70dp"
+            android:src="@drawable/main_pagee"/>
+        <TextView
+            android:layout_marginTop="7dp"
+            android:layout_marginStart="200dp"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="Version 1.0"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginTop="90dp"
+            android:text="This software is design by Feri Teja Kusuma"
+            android:textAlignment="center"
+            />
+
+
+    </FrameLayout>
+</ScrollView>

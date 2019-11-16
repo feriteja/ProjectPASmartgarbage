@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "170807889751",
+    "firebase_url": "https://smart-garbage-e2d1a.firebaseio.com",
+    "project_id": "smart-garbage-e2d1a",
+    "storage_bucket": "smart-garbage-e2d1a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170807889751:android:30edac84ca4f2340",
+        "android_client_info": {
+          "package_name": "com.example.feriteja.projectpasmartgarbage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170807889751-gdebu0kr9o3brtrkremmtdd5h5av1g82.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBk-hDHfmhsxL5EgQUrwnusWpGqbv7-JSc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170807889751-gdebu0kr9o3brtrkremmtdd5h5av1g82.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
